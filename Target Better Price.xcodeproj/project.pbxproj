@@ -11,8 +11,12 @@
 		E55FAB002BA408E200336DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAAFF2BA408E200336DDD /* ContentView.swift */; };
 		E55FAB022BA408E300336DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55FAB012BA408E300336DDD /* Assets.xcassets */; };
 		E55FAB052BA408E300336DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55FAB042BA408E300336DDD /* Preview Assets.xcassets */; };
-		E55FAB072BA408E300336DDD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB062BA408E300336DDD /* Persistence.swift */; };
-		E55FAB0A2BA408E300336DDD /* Target_Better_Price.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB082BA408E300336DDD /* Target_Better_Price.xcdatamodeld */; };
+		E55FAB112BA409C000336DDD /* storeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB102BA409C000336DDD /* storeModel.swift */; };
+		E55FAB132BA40E2D00336DDD /* storeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB122BA40E2D00336DDD /* storeCollection.swift */; };
+		E55FAB152BA413A700336DDD /* EnterDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB142BA413A700336DDD /* EnterDataView.swift */; };
+		E55FAB172BA4183000336DDD /* PriorSearchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB162BA4183000336DDD /* PriorSearchesView.swift */; };
+		E55FAB192BA4191C00336DDD /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB182BA4191C00336DDD /* ResultsView.swift */; };
+		E55FAB1C2BA56CA300336DDD /* dataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55FAB1A2BA56CA300336DDD /* dataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +25,12 @@
 		E55FAAFF2BA408E200336DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E55FAB012BA408E300336DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55FAB042BA408E300336DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E55FAB062BA408E300336DDD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		E55FAB092BA408E300336DDD /* Target_Better_Price.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Target_Better_Price.xcdatamodel; sourceTree = "<group>"; };
+		E55FAB102BA409C000336DDD /* storeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeModel.swift; sourceTree = "<group>"; };
+		E55FAB122BA40E2D00336DDD /* storeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeCollection.swift; sourceTree = "<group>"; };
+		E55FAB142BA413A700336DDD /* EnterDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDataView.swift; sourceTree = "<group>"; };
+		E55FAB162BA4183000336DDD /* PriorSearchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorSearchesView.swift; sourceTree = "<group>"; };
+		E55FAB182BA4191C00336DDD /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		E55FAB1B2BA56CA300336DDD /* dataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			children = (
 				E55FAAFD2BA408E200336DDD /* Target_Better_PriceApp.swift */,
 				E55FAAFF2BA408E200336DDD /* ContentView.swift */,
+				E55FAB102BA409C000336DDD /* storeModel.swift */,
+				E55FAB122BA40E2D00336DDD /* storeCollection.swift */,
+				E55FAB142BA413A700336DDD /* EnterDataView.swift */,
+				E55FAB162BA4183000336DDD /* PriorSearchesView.swift */,
+				E55FAB182BA4191C00336DDD /* ResultsView.swift */,
+				E55FAB1A2BA56CA300336DDD /* dataModel.xcdatamodeld */,
 				E55FAB012BA408E300336DDD /* Assets.xcassets */,
-				E55FAB062BA408E300336DDD /* Persistence.swift */,
-				E55FAB082BA408E300336DDD /* Target_Better_Price.xcdatamodeld */,
 				E55FAB032BA408E300336DDD /* Preview Content */,
 			);
 			path = "Target Better Price";
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55FAB0A2BA408E300336DDD /* Target_Better_Price.xcdatamodeld in Sources */,
-				E55FAB072BA408E300336DDD /* Persistence.swift in Sources */,
+				E55FAB112BA409C000336DDD /* storeModel.swift in Sources */,
+				E55FAB192BA4191C00336DDD /* ResultsView.swift in Sources */,
+				E55FAB132BA40E2D00336DDD /* storeCollection.swift in Sources */,
+				E55FAB1C2BA56CA300336DDD /* dataModel.xcdatamodeld in Sources */,
 				E55FAB002BA408E200336DDD /* ContentView.swift in Sources */,
+				E55FAB152BA413A700336DDD /* EnterDataView.swift in Sources */,
 				E55FAAFE2BA408E200336DDD /* Target_Better_PriceApp.swift in Sources */,
+				E55FAB172BA4183000336DDD /* PriorSearchesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,13 +370,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E55FAB082BA408E300336DDD /* Target_Better_Price.xcdatamodeld */ = {
+		E55FAB1A2BA56CA300336DDD /* dataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E55FAB092BA408E300336DDD /* Target_Better_Price.xcdatamodel */,
+				E55FAB1B2BA56CA300336DDD /* dataModel.xcdatamodel */,
 			);
-			currentVersion = E55FAB092BA408E300336DDD /* Target_Better_Price.xcdatamodel */;
-			path = Target_Better_Price.xcdatamodeld;
+			currentVersion = E55FAB1B2BA56CA300336DDD /* dataModel.xcdatamodel */;
+			path = dataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
